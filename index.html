@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Kelink.kz</title>
 
@@ -53,25 +53,38 @@
         .footer a:hover {
           text-decoration: underline;
         }
+        header { padding: 2rem 1rem; }
+    main { padding: 2rem 1rem; }
+    footer { padding: 1rem; background: #eee; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>Kelink.kz</h1>
-    <p>Save and organize links, notes, and collections. Share them with others or keep them private. Collaborate in real-time and access your content anytime.</p>
+    <header>
+        <h1>Kelink.kz</h1>
+        <p>Save and organize links, notes, and collections. Share them with others or keep them private. Collaborate in
+            real-time and access your content anytime.</p>
+    </header>
+    <main>
+        <div class="store-buttons">
+            <a href="https://play.google.com/store/apps/details?id=com.example.myapp" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                     alt="Get it on Google Play">
+            </a>
+            <a href="https://apps.apple.com/app/id0000000000" target="_blank">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                     alt="Download on the App Store">
+            </a>
+        </div>
+    </main>
 
-    <div class="store-buttons">
-        <a href="https://play.google.com/store/apps/details?id=com.example.myapp" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
-        </a>
-        <a href="https://apps.apple.com/app/id0000000000" target="_blank">
-            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
-        </a>
-    </div>
-
-    <div class="footer">
-        <a href="privacy-policy.html">Privacy Policy</a>
-    </div>
+    <footer>
+        <div class="links">
+            <a href="privacy-policy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Service</a>
+        </div>
+        <p>© 2025 Kelink.kz All rights reserved.</p>
+    </footer>
 </div>
 </body>
 </html>
