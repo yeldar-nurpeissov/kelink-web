@@ -1,9 +1,17 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "yeldar.nurpeissov.kelink",
-    "sha256_cert_fingerprints":
-    ["60:63:81:28:F6:03:B4:C8:8A:21:83:E5:0D:E6:AC:2A:19:B9:AE:6F:64:22:A6:98:E1:D8:BD:FE:CA:24:84:4B"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "yeldar.nurpeissov.kelink",
+      "sha256_cert_fingerprints": [
+        "60:63:81:28:F6:03:B4:C8:8A:21:83:E5:0D:E6:AC:2A:19:B9:AE:6F:64:22:A6:98:E1:D8:BD:FE:CA:24:84:4B",
+        "95:1F:DB:6D:ED:FA:AF:67:EC:1D:FB:97:53:1D:49:E6:46:5F:5D:8A:6B:E7:9C:BE:DE:5A:F8:BF:38:DD:1C:51",
+        "5B:29:C5:15:42:16:6C:0F:27:D9:EC:EA:D0:4A:E8:59:BA:EC:29:8B:68:B1:5C:A8:22:B3:58:4C:61:34:A0:70"
+      ]
+    }
   }
-}]
+]
